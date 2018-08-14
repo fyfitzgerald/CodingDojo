@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Making Blocks</title>
+        <link rel="stylesheet" type="text/css" href="makingblocks.css">
+    </head>
+    <body>
+        <div id="gray">
+            <div class="red"></div>
+            <div class="red"></div>
+            <div id="blue"></div>
+            <div class="yellow"></div>
+            <div class="yellow"></div>
+            <div class="yellow"></div>
+            <div id="green">
+                <div id="purpleA"></div>
+                <div id="purpleB"></div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+#gray{
+    width: 900px;
+    height: 1020px;
+    background-color: silver;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+.red{
+    width: 400px;
+    height: 180px;
+    background-color: red;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    display: inline-block;
+    margin: 18px;
+}
+
+#blue{
+    width: 848px;
+    height: 200px;
+    background-color: blue;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    margin: 18px;
+}
+
+.yellow{
+    width: 250px;
+    height: 200px;
+    background-color: yellow;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    display: inline-block;
+    margin: 18px;
+}
+
+#green{
+    width: 848px;
+    height: 250px;
+    background-color: green;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    margin: 18px;
+}
+
+#purpleA{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    display: inline-block;
+    margin: 18px 50px 18px 18px;
+}
+
+#purpleB{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    display: inline-block;
+    margin: 18px 18px 18px 335px;
+}
