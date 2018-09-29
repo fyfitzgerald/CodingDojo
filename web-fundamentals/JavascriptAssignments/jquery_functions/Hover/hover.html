@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Hover</title>
+        <link rel="stylesheet" href="hover.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+
+            $(".actor1").hover(function(){
+                $(this).attr('src', $(this).attr('alt1'))}, function(){$(this).attr('src', "ChandraWilson.jpg")});  
+            
+            $(".actor2").hover(function(){
+                $(this).attr('src', $(this).attr('alt1'))}, function(){$(this).attr('src', "tracee-ellis-ross.jpg")}); 
+
+            $(".actor3").hover(function(){
+                $(this).attr('src', $(this).attr('alt1'))}, function(){$(this).attr('src', "Dwayne-Johnson.jpg")}); 
+
+            $(".actor4").hover(function(){
+                $(this).attr('src', $(this).attr('alt1'))}, function(){$(this).attr('src', "lakeith-stanfield.jpg")}); 
+
+            $(".creator1").hover(function(){
+                $(this).attr('src', $(this).attr('alt1'))}, function(){$(this).attr('src', "shonda-rhimes.jpg")}); 
+
+            $(".creator2").hover(function(){
+                $(this).attr('src', $(this).attr('alt1'))}, function(){$(this).attr('src', "Mara-Brock-Akil.jpg")}); 
+
+            $(".creator3").hover(function(){
+                $(this).attr('src', $(this).attr('alt1'))}, function(){$(this).attr('src', "dany-garcia.jpg")}); 
+
+            $(".creator4").hover(function(){
+                $(this).attr('src', $(this).attr('alt1'))}, function(){$(this).attr('src', "donald-glover.jpg")}); 
+
+            
+            });
+            
+            </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="actors">
+                <img class="actor1" src='ChandraWilson.jpg' alt1='GreysAnatomy.jpg'/>
+                <img class="actor2" src='tracee-ellis-ross.jpg' alt1='Girlfriends.png'/>
+                <img class="actor3" src='Dwayne-Johnson.jpg' alt1='ballers.jpg'/>
+                <img class="actor4" src='lakeith-stanfield.jpg' alt1='get-out.jpg'/>                
+            </div>
+            <div class="creators">
+                <img class="creator1" src='shonda-rhimes.jpg' alt1='scandal.jpg'/>
+                <img class="creator2" src='Mara-Brock-Akil.jpg' alt1='love-is.png'/>
+                <img class="creator3" src='dany-garcia.jpg' alt1='Skyscraper.png'/>
+                <img class="creator4" src='donald-glover.jpg' alt1='atlanta.jpg'/>
+            </div>
+        </div>
+    </body>
+</html>

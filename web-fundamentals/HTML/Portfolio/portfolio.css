@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   }
+   
+   .background{
+       width: 970px;
+       height: 1020px;
+       background-color: #4f3b44;
+   }
+
+   .header{
+       width: 970px;
+       height: 65px;
+       background-color: #f7f7f7;
+   }
+
+   .h1{
+       color: black;
+       margin-left: 22px;
+       line-height: 65px;
+       display: inline-block;
+       font-family: 'Courier New', Courier, monospace;
+   }
+
+   .h2{
+        color: black;
+        margin-left: 391px;        
+        display: inline-block;
+    }
+
+   .image{
+       width: 370px;
+       height: 250px;
+       margin: 25px;
+       border: 5px;
+       border-style: solid;
+       border-color: #c0c0c0;
+       display: inline-block;
+   }
+
+   .about{
+        width: 500px;
+        height: 260px;
+        margin: 25px 25px 25px 0px;
+        background:  #dfd1dd;
+        display: inline-block;
+        vertical-align: top;
+   }
+
+   .abouttitle{
+       width: 500px;
+       height: 42px;
+       background-color: #a4a3aa
+   }
+
+   .p{ 
+       margin: 5px 0px 0px 10px;
+       font-size: 17px;
+   }
+
+   .p1 p{
+        width: 280px;
+   }
+
+   .a{
+       margin: 0px 0px 29px 10px;
+       color: black;
+   }
+
+   .h2b{
+       color: #fffffe;
+       margin-left: 10px;
+       line-height: 42px;
+   }
+
+   .site1{
+       width: 300px;
+       height: 535px;
+       background-color: #dfd2de;
+       display: inline-block;
+       margin: 10px;
+       vertical-align: top;
+   }
+
+   .sitetitle{
+        width: 300px;
+        height: 42px;
+        background-color: #a4a3aa;
+    }
+
+    .image1{
+        width: 300px;
+        height: 155px; 
+    }
+
+   .p1{
+       width: 300px;
+       height: 147px;
+       margin: 5px 0px 0px 8px;
+       text-align: justify;
+       font-size: 15px;
+   }
+
+   .techs{
+       width: 300px;
+       height: 187px;
+   }
+
+   .techtitle{
+       width: 300px;
+       height: 36px;
+       background-color: #a4a3aa;
+   }
+
+   .h3{
+        color: #fffffe;
+        margin-left: 12px;
+        line-height: 36px;
+    }
+
+    .image2{
+        width: 40px;
+        height: 40px;
+        margin: 10px 0px 0px 14px; 
+    }
+
+    .linkbutton{
+        text-decoration: none;
+        margin-left: 115px;
+        color: #f8fdfd;
+        background-color: #407d61;
+        padding: 4px;
+        border: 1px solid black;
+        border-radius: 8px;
+    }
+
+   .footer{
+       width: 970px;
+       height: 70px;
+       background-color: #f7f7f7;
+       margin: 11px 0px 0px 0px;
+       text-align: center;
+   }
+
+   .footera{
+       text-align: center;
+       font-size: 17px;
+   }
+
+   .image3{
+       width: 20px;
+       height: 20px;
+   }

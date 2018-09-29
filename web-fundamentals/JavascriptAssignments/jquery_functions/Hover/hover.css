@@ -1,0 +1,60 @@
+.container{
+    width: 800px;
+    height: 550px;
+    /* outline: 2px solid pink; */
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.actors{
+    width: 800px;
+    height: 260px;
+    /* outline: 1px dotted black; */
+}
+
+.creators{
+    Width: 800px;
+    height: 260px;
+    /* outline: 1px dotted black; */
+    margin-top: 31px;
+}
+
+.actor1{
+    width: 195px;
+    height: 260px;
+}
+
+.actor2{
+    width: 195px;
+    height: 260px;
+}
+
+.actor3{
+    width: 195px;
+    height: 260px;
+}
+
+.actor4{
+    width: 195px;
+    height: 260px;
+}
+
+.creator1{
+    width: 195px;
+    height: 260px;
+}
+
+.creator2{
+    width: 195px;
+    height: 260px;
+}
+
+.creator3{
+    width: 195px;
+    height: 260px;
+}
+
+.creator4{
+    width: 195px;
+    height: 260px;
+}

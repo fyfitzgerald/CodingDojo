@@ -1,0 +1,218 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+  width: 1000px;
+  height: 800px;
+  background-color: white;
+}
+#clickme{
+  margin: 10px;
+  margin-top: 40px;
+  display: inline-block;
+}
+.AddClass{
+  width: 1000px;
+  height: 100px;
+  display: block;
+  border-bottom: 3px black solid;
+}
+#head1{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 70px;
+  font-size: 40px;
+}
+.red{
+  color: red;
+}
+.click_p1{
+  display: inline-block;
+  margin-left: -250px;
+}
+#slidetoggle{
+  margin: 10px;
+  margin-top: 40px;
+  display: inline-block;
+}
+.slidetoggle{
+  width: 1000px;
+  height: 100px;
+  display: block;
+  border-bottom: 3px black solid;
+}
+#head2{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 70px;
+  font-size: 40px;
+}
+.p2{
+  display: inline-block;
+  margin-left: -250px;
+}
+.dog_pic{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+.dog_pic2{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+#append{
+  margin: 10px;
+  margin-top: 40px;
+  display: inline-block;
+}
+.append{
+  width: 1000px;
+  height: 100px;
+  display: block;
+  border-bottom: 3px black solid;
+}
+#head3{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 90px;
+  font-size: 40px;
+}
+.p3{
+  display: inline-block;
+  margin-left: -200px;
+}
+#slideup{
+  margin: 10px;
+  margin-top: 40px;
+  display: inline-block;
+}
+.slideup{
+  width: 1000px;
+  height: 100px;
+  display: block;
+  border-bottom: 3px black solid;
+}
+#head4{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 90px;
+  font-size: 40px;
+}
+.p4{
+  display: inline-block;
+  margin-left: -200px;
+}
+#fade{
+  margin: 10px;
+  margin-top: 40px;
+  display: inline-block;
+}
+.fade{
+  width: 1000px;
+  height: 100px;
+  display: block;
+  border-bottom: 3px black solid;
+}
+#head5{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 90px;
+  font-size: 40px;
+}
+.p5{
+  display: inline-block;
+  margin-left: -100px;
+}
+#beforeafter{
+  margin: 10px;
+  margin-top: 40px;
+  display: inline-block;
+}
+.beforeafter{
+  width: 1000px;
+  height: 100px;
+  display: block;
+  border-bottom: 3px black solid;
+}
+#head6{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 90px;
+  font-size: 40px;
+}
+.p6{
+  display: inline-block;
+}
+#html{
+  margin: 10px;
+  margin-top: 40px;
+  display: inline-block;
+}
+.html{
+  width: 1000px;
+  height: 100px;
+  display: block;
+  border-bottom: 3px black solid;
+}
+#head7{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 90px;
+  font-size: 40px;
+}
+.p7{
+  display: inline-block;
+  margin-left: -200px;
+}
+#attr{
+  margin: 10px;
+  margin-top: 40px;
+  display: inline-block;
+}
+.attr{
+  width: 1000px;
+  height: 100px;
+  display: block;
+  border-bottom: 3px black solid;
+}
+#head8{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 90px;
+  font-size: 40px;
+}
+.p8{
+  display: inline-block;
+  margin-left: -200px;
+}
+.dog_pic3{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+#val{
+  margin: 10px;
+  margin-top: 40px;
+  display: inline-block;
+}
+.val{
+  width: 1000px;
+  height: 100px;
+  display: block;
+  border-bottom: 3px black solid;
+}
+#head9{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 90px;
+  font-size: 40px;
+}
+.p9{
+  display: inline-block;
+  margin-left: -100px;
+}
+.name_box{
+  margin-left: 150px;
+}

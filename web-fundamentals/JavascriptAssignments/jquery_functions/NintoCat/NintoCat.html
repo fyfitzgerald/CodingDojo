@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Ninja to Cat</title>
+        <link rel="stylesheet" href="NintoCat.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+
+                $(".ninja0").click(function(){
+                    $(this).attr("src", $(this).attr("alt1"))
+                })
+                $(".ninja1").click(function(){
+                    $(this).attr("src", $(this).attr("alt2"))
+                })
+                $(".ninja2").click(function(){
+                    $(this).attr("src", $(this).attr("alt3"))
+                })
+                $(".ninja3").click(function(){
+                    $(this).attr("src", $(this).attr("alt4"))
+                })
+                $(".ninja4").click(function(){
+                    $(this).attr("src", $(this).attr("alt5"))
+                })
+            })      
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="cat">
+                <img class="ninja0" src='ninja0.png' alt1='cat0.png'/>
+            </div>
+            <div class="cat">
+                <img class="ninja1" src='ninja1.png' alt2='cat1.png'/>
+            </div>
+            <div class="cat">
+                <img class="ninja2" src='ninja2.png' alt3='cat2.png'/>                
+            </div>
+            <div class="cat">
+                <img class="ninja3" src='ninja3.png' alt4='cat3.png'/>
+            </div>
+            <div class="cat">
+                <img class="ninja4" src='ninja4.png' alt5='cat4.png'/>
+            </div>
+        </div>
+    </body>
+</html>

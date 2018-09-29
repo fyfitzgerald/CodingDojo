@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery Functions</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </script>
+    <script>
+      $(document).ready(function(){
+        // All JQUERY CODE GOES IN HERE
+        $("#clickme").click(function(){
+          $(".click_p1").addClass("red")
+        })
+        $(".dog_pic").hide()
+        $("#slidetoggle").click(function(){
+          $(".dog_pic").slideToggle()
+        })
+        $("#append").click(function(){
+          $(".p3").append("hodiahodihawiodhaiodhoiahdioa")
+        })
+        $("#slideup").click(function(){
+          $(".dog_pic2").slideUp()
+          $("#slideup").click(function(){
+            $(".dog_pic2").slideDown()
+            })
+        })
+        $("#fade").click(function(){
+          $(".p5").fadeOut()
+          $("#fade").click(function(){
+            $(".p5").fadeIn()
+            })
+        })
+        $("#beforeafter").click(function(){
+          $(".p6").before("odpawj iodjawoijdoiaw ")
+          $("#beforeafter").click(function(){
+            $(".p6").after(" HAHA")
+            })
+        })
+        $(".html").click(function(){
+          $(".p7").html("HAHAHHA")
+        })
+        $(".attr").click(function(){
+          $(".dog_pic3").css("width", "50")
+        })
+        $(".val").click(function(){
+          $(".name_box").val("David Nam")
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="AddClass">
+        <button id="clickme">Click Me</button>
+        <h1 id="head1">CLICK ME</h1>
+        <p class="click_p1">Click the button to add class "red" to this paragraph</p>
+      </div>
+      <div class="slidetoggle">
+        <button id="slidetoggle">Slide toggle</button>
+        <h1 id="head2">Slidetoggle</h1>
+        <p class="p2">Click the button to slidetoggle a hidden image</p>
+        <img class="dog_pic" src="dog.jpg" alt="dog picture">
+      </div>
+      <div class="append">
+        <button id="append">Append</button>
+        <h1 id="head3">Append</h1>
+        <p class="p3">Click the button to append a new paragraph </p>
+      </div>
+      <div class="slideup">
+        <button id="slideup">SlideUp</button>
+        <h1 id="head4">SlideUp</h1>
+        <p class="p4">Click the button to slide up a new image</p>
+        <img class="dog_pic2" src="dog.jpg" alt="dog picture">
+      </div>
+      <div class="fade">
+        <button id="fade">Fade</button>
+        <h1 id="head5">Fade</h1>
+        <p class="p5">Click the button to fade away the text and click again to fade in the text</p>
+      </div>
+      <div class="beforeafter">
+        <button id="beforeafter">BeforeAfter</button>
+        <h1 id="head6">BeforeAfter</h1>
+        <p class="p6">Click the button first to add text before and click again to add text after </p>
+      </div>
+      <div class="html">
+        <button id="html">HTML</button>
+        <h1 id="head7">HTML</h1>
+        <p class="p7">Click the button to change this text to something AWESOME </p>
+      </div>
+      <div class="attr">
+        <button id="attr">ATTR</button>
+        <h1 id="head8">ATTR</h1>
+        <p class="p8">Click the button to change the picture to a smaller picture </p>
+        <img class="dog_pic3" src="dog.jpg" alt="dog picture">
+      </div>
+      <div class="val">
+        <button id="val">VAL</button>
+        <h1 id="head9">VAL</h1>
+        <p class="p9">Click the button to see the name in the input field </p>
+        <form>
+          <input class="name_box" type="text" name="name_box">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
