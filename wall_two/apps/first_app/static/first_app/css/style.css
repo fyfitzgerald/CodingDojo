@@ -1,0 +1,48 @@
+.container {
+    width: 970px;
+    height: 1500px;
+    border: 2px dotted pink;
+    margin-left: 200px;
+}
+
+.main_content {
+    width: 840px;
+    border: 2px dotted blue;
+    margin-left: 30px;
+}
+
+.h1 {
+    display: inline-block;
+}
+
+.h3 {
+    display: inline-block;
+    margin-left: 490px;
+}
+
+.a {
+    display: inline-block;
+}
+
+.activities {
+    width: 800px;
+    height: 90px;
+}
+
+.comment_area {
+    margin-top: 32px;
+    margin-left: 100px;
+}
+
+.comment_text_area {
+    width: 700px;
+    height: 70px;
+}
+
+.ul {
+    list-style: none
+}
+
+.comments {
+    margin-left: 100px;
+}

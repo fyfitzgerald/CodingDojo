@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dojo Wall</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'first_app/css/style.css'%}">
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="heading">
+            <h1 class="h1">CodingDojo Wall</h1>
+            <h3 class="h3">Welcome, {{request.session.username}}</h3>
+            <a href="/" class="a">Log off</a>
+
+    </div>
+        
+        <div class="main_content">
+            
+            <h3>Post a message</h3>
+
+            <form action="post_message" method='POST'>
+                {% csrf_token %}
+                <textarea class="activities" name="message_input" placeholder="Enter message here..."></textarea>
+                <p><input type="submit" name="" value="Post a message"></p>
+            </form>
+
+            <!-- parse the remainder means that it's looking for a dictionary but does not have both a key and a value  -->
+
+            {% for m in written_messages reversed %}
+                <!-- pull the user first name  from your database, NOT session.  -->
+                <p>{{m.user.first_name}} {{m.user.last_name}} - {{m.created_at}}</p>
+                <!-- after the dot is coming from your table -->
+                <p>{{m.message}}</p>
+
+                <form action="delete_message" method='POST'>
+                    {% csrf_token %}
+                    <input type="hidden" name="message_id" value="{{m.id}}">
+                    <input type="submit" name="delete_button" value="Delete">
+                </form>
+
+                <div class="comments">
+                    {% for c in written_comments %}
+                        <!-- check to see if the table comment id key equals the message id key -->
+                        {% if m.id == c.message_c.id %}
+                            <p>{{request.session.username}} - {{c.created_at}}</p>
+                            <p>{{c.comment}}</p>
+
+                            <form action="delete_comment" method='POST'>
+                                {% csrf_token %}
+                                <input type="hidden" name="comment_id" value="{{c.id}}">
+                                <input type="submit" name="delete_button" value="Delete">
+                            </form>
+
+                        {% endif %} 
+                    {% endfor %}               
+                </div>
+
+                <form action="/post_comment" method='POST' class="comment_area">
+                    {% csrf_token %}
+                    <input type="hidden" name="message_id" value="{{m.id}}">
+                    <textarea name="comment_input" class="comment_text_area" placeholder="Enter comment here..."></textarea>
+                    <p><input type="submit" name="" value="Post a comment"></p>
+                </form>
+
+            {% endfor %}
+
+
+        </div>
+
+    </div>
+    <!-- </textarea> -->
+
+</body>
+</html>
