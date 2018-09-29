@@ -1,0 +1,63 @@
+.container {
+    width: 970px;
+    height: 750px;
+    border: 2px dotted pink;
+    margin-left: 200px;
+}
+
+.building {
+    width: 210px;
+    height: 230px;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+}
+
+.num_count {
+    width: 500px;
+    height: 120px;
+}
+
+.p {
+    margin-top: 30px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.gold_num {
+    display: inline-block;
+}
+
+.farm h2 {
+    margin-top: 15px;
+}
+
+.submit {
+    margin-top: 30px;
+}
+
+.p1 {
+    margin-top: 30px;
+}
+
+.activities {
+    width: 930px;
+    height: 250px;
+}
+
+.activities li{
+    list-style: none;
+}
+
+.earn {
+    color: green;
+}
+
+.lose {
+    color: red;
+}
+
+.activities {
+    border: 2px solid black;
+}
