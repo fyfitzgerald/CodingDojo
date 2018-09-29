@@ -1,0 +1,49 @@
+.container {
+    width: 970px;
+    height: 750px;
+    border: 3px dotted pink;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+.left_side {
+    width: 460px;
+    height: 750px;
+    border-right: 3px solid black;
+    display: inline-block;
+}
+
+.right_side {
+    width: 460px;
+    height: 750px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.word_history{
+    width: 435px;
+    height: 680px;
+    border: 3px dotted purple;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.blue{
+    color: blue;
+}
+
+.purple{
+    color: purple;
+}
+
+.tiny{
+    font-size: 10px;
+}
