@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Add a Job</title>
+</head>
+<body>
+    
+    <h2>Add a Job</h2> <a href="/main/main">Back</a> <a href="/main/logout">Logout</a>
+
+    {% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+        <li>{% if message.tags %}{{ message }}{% endif %}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    <form action="/main/process_job_add" method='POST'>
+        {% csrf_token %}
+        <p>Title: <input type="text" name="title"></p>
+        <p>Description: <textarea name="description"></textarea></p>
+        <p>Location: <input type="text" name="location"></p>
+        <p><input type="submit" name="" value="Submit"></p>
+    </form>   
+
+</body>
+</html>

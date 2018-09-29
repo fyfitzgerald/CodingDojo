@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>View Job</title>
+</head>
+<body>
+    
+    <h2>{{this_job.title}}</h2>  <a href="/main/main">Back</a> <a href="/main/logout">Logout</a>
+
+    <p>{{this_job.description}}</p>
+    <p>Location: {{this_job.location}}</p>
+    <p>Posted by: {{this_job.user_created.first_name}} {{this_job.user_created.last_name}}</p>
+    <p>Posted on: {{this_job.created_at}}</p>
+
+
+</body>
+</html>
